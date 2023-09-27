@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs" : true,
+    "module": "CommonJS",                    
+    "strict": true,                          
+    "outDir": "./dist",
+    "sourceMap": true,
+    "pretty": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "noImplicitAny": false,
+    "strictNullChecks" : false,
+    "incremental": true,
+    "noLib": false,
+    "declaration": false,
+    "noUnusedLocals": true,
+    "target": "es5",                          
+    "esModuleInterop": true,                  
+    "skipLibCheck": true,                      
+    "forceConsistentCasingInFileNames": true   
+  }
+}
