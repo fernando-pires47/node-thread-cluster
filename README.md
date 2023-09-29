@@ -7,17 +7,62 @@ Working with Thread and Cluster in Node.js Application
 * PM2 
 
 #### Run Applications
-* Cluster: npm run start:cluster
-* Worker Threads: npm run start:workers
-* Run single node: npm run start:server
-* Run single node with PM2: npm run pm2:start-dev
-* Run cluster with PM2: npm run pm2:start
 
-##### Commands with PM2 execution
-* List Cluster: npm run pm2:list
-* Show logs of all nodes: npm run pm2:logs
-* Window of monitoring: npm run pm2:monit
-* Stop Cluster: npm run pm2:stop   
+Cluster
+
+```bash
+npm run start:cluster
+```
+
+Worker Threads
+
+```bash
+npm run start:workers
+```
+
+Run single node
+
+```bash
+npm run start:server
+```
+
+Run single node with PM2
+
+```bash
+npm run pm2:start-dev
+```
+
+Run cluster with PM2
+
+```bash
+npm run pm2:start
+```
+
+#### Commands with PM2 execution
+
+List Cluster
+
+```bash
+npm run pm2:list
+```
+
+Show logs of all nodes
+
+```bash
+npm run pm2:logs
+```
+
+Window of monitoring
+
+```bash
+npm run pm2:monit
+```
+
+Stop Cluster  
+
+```bash
+npm run pm2:stop
+```
 
 
 ## License
